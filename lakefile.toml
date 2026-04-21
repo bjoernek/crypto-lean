@@ -1,0 +1,11 @@
+name = "CryptoLean"
+version = "0.1.0"
+keywords = ["math"]
+defaultTargets = ["CryptoLean"]
+
+[[require]]
+name = "mathlib"
+path = "../../../lean-deps/lean4-v4.30.0-rc1/mathlib"
+
+[[lean_lib]]
+name = "CryptoLean"
